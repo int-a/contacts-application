@@ -1,0 +1,13 @@
+{
+  "name": "contacts-application",
+  "version": "0.0.1",
+  "description": "A simple Contacts application written using the MERN stack (Mongo, Express, React, Node) and Redux",
+  "main": "app.js",
+  "repository": "https://github.com/int-a/contacts-application.git",
+  "author": "<anthony.intino@web.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
