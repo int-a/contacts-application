@@ -16,6 +16,7 @@
     "dev": "webpack-dev-server --mode development",
     "start": "node src/index.js"
   },
+  "proxy": "http://localhost:5000/",
   "devDependencies": {
     "@babel/cli": "7.1.0",
     "@babel/core": "7.1.0",
