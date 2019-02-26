@@ -4,11 +4,14 @@
   "description": "A simple Contacts application written using the MERN stack (Mongo, Express, React, Node) and Redux",
   "main": "app.js",
   "repository": "https://github.com/int-a/contacts-application.git",
-  "author": "<anthony.intino@web.com>",
+  "author": "<anthony.intino@gmail.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "mongoose": "^5.4.15",
     "react": "16.5.2",
     "react-dom": "16.5.2"
   },

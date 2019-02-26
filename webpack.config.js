@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/client/index.js",
   mode: "development",
   module: {
     rules: [
@@ -17,10 +17,6 @@ module.exports = {
         use: ["style-loader", "css-loader"]
       }
     ]
-  },
-  node: {
-    fs: "empty",
-    net: "empty"
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
